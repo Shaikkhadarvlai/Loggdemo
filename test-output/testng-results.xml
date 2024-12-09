@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Log: Driver session is created]]>
+    </line>
+    <line>
+      <![CDATA[Log: Apllication is open]]>
+    </line>
+    <line>
+      <![CDATA[Log :Log page is open]]>
+    </line>
+    <line>
+      <![CDATA[Log:Login is completed with valid data set]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-09T15:34:32 IST" name="Default suite" finished-at="2024-12-09T15:35:01 IST" duration-ms="28994">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T15:34:32 IST" name="Default test" finished-at="2024-12-09T15:35:01 IST" duration-ms="28994">
+      <class name="com.OrengePage.TestCases.AdminPageTest">
+        <test-method is-config="true" signature="reports()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:32 IST" name="reports" finished-at="2024-12-09T15:34:32 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="Setupbrowser()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:32 IST" name="Setupbrowser" finished-at="2024-12-09T15:34:37 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log: Driver session is created]]>
+            </line>
+            <line>
+              <![CDATA[Log: Apllication is open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setupbrowser -->
+        <test-method is-config="true" signature="SetupPages()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:37 IST" name="SetupPages" finished-at="2024-12-09T15:34:51 IST" duration-ms="13520" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log :Log page is open]]>
+            </line>
+            <line>
+              <![CDATA[Log:Login is completed with valid data set]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetupPages -->
+        <test-method signature="testadmin()[pri:1, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:51 IST" name="testadmin" finished-at="2024-12-09T15:34:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmin -->
+        <test-method signature="Teststudent()[pri:2, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:51 IST" name="Teststudent" finished-at="2024-12-09T15:35:01 IST" duration-ms="10061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teststudent -->
+        <test-method is-config="true" signature="exitReport()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:35:01 IST" name="exitReport" finished-at="2024-12-09T15:35:01 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitReport -->
+      </class> <!-- com.OrengePage.TestCases.AdminPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

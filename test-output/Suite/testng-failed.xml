@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.OrengePageTest.LoginpageTest">
+        <methods>
+          <include name="reports"/>
+          <include name="SetupPages"/>
+          <include name="Setupbrowser"/>
+          <include name="Testallfunctions"/>
+          <include name="testtile"/>
+          <include name="teturl"/>
+          <include name="exitReport"/>
+        </methods>
+      </class> <!-- com.OrengePageTest.LoginpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
