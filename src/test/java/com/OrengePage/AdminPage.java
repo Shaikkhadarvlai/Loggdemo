@@ -32,9 +32,9 @@ public class AdminPage
         
         for (WebElement row : rows)
         { 
-        
+        	
         	System.out.println(row.getText()); 
-        
+        	
         } 
 		
 	}

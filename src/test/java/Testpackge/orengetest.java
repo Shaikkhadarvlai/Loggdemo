@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import com.utility123.Utility1234;
+
 
 
 public class orengetest {
@@ -34,10 +36,12 @@ public class orengetest {
         // Locate the password field and enter the password
         WebElement passwordField = driver.findElement(By.name("password"));
         passwordField.sendKeys("admin123");
+        Utility1234.getScreenshot(driver);
 
         // Locate the login button and click it
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginButton.click();
+        Utility1234.getScreenshot(driver);
 
         // Verify the URL after login
         String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
@@ -47,9 +51,9 @@ public class orengetest {
         } else {
             System.out.println("Login failed or URL mismatch. Expected: " + expectedUrl + " but got: " + actualUrl);
         }
-
+       
         // Close the browser
-    //    driver.quit();
+        driver.quit();
 
   }
 

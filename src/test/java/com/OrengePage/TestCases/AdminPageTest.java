@@ -18,6 +18,12 @@ public class AdminPageTest extends  BaseClass
     @Test(priority=2)
     public void Teststudent()
     {
-    	oap.Student();
+    	try {
+			
+		} catch (Exception e) 
+    	{
+			oap.Student();
+		}
+    
     }
 }

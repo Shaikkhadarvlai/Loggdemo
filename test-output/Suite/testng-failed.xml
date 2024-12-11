@@ -3,17 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.OrengePageTest.LoginpageTest">
+      <class name="com.OrengePage.TestCases.LoginpageTest">
         <methods>
-          <include name="reports"/>
-          <include name="SetupPages"/>
-          <include name="Setupbrowser"/>
-          <include name="Testallfunctions"/>
-          <include name="testtile"/>
-          <include name="teturl"/>
           <include name="exitReport"/>
+          <include name="reports"/>
+          <include name="Testallfunctions"/>
+          <include name="SetupPages"/>
+          <include name="teturl"/>
+          <include name="Setupbrowser"/>
+          <include name="testtile"/>
         </methods>
-      </class> <!-- com.OrengePageTest.LoginpageTest -->
+      </class> <!-- com.OrengePage.TestCases.LoginpageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="0" skipped="3">
   <reporter-output>
     <line>
       <![CDATA[Log: Driver session is created]]>
@@ -13,17 +13,20 @@
     <line>
       <![CDATA[Log:Login is completed with valid data set]]>
     </line>
+    <line>
+      <![CDATA[Log :Log page is open]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-12-09T15:34:32 IST" name="Default suite" finished-at="2024-12-09T15:35:01 IST" duration-ms="28994">
+  <suite started-at="2024-12-10T18:08:07 IST" name="Suite" finished-at="2024-12-10T18:08:34 IST" duration-ms="26423">
     <groups>
     </groups>
-    <test started-at="2024-12-09T15:34:32 IST" name="Default test" finished-at="2024-12-09T15:35:01 IST" duration-ms="28994">
+    <test started-at="2024-12-10T18:08:07 IST" name="Test" finished-at="2024-12-10T18:08:34 IST" duration-ms="26423">
       <class name="com.OrengePage.TestCases.AdminPageTest">
-        <test-method is-config="true" signature="reports()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:32 IST" name="reports" finished-at="2024-12-09T15:34:32 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="reports()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:07 IST" name="reports" finished-at="2024-12-10T18:08:07 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports -->
-        <test-method is-config="true" signature="Setupbrowser()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:32 IST" name="Setupbrowser" finished-at="2024-12-09T15:34:37 IST" duration-ms="5376" status="PASS">
+        <test-method is-config="true" signature="Setupbrowser()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:08 IST" name="Setupbrowser" finished-at="2024-12-10T18:08:13 IST" duration-ms="5612" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Log: Driver session is created]]>
@@ -33,7 +36,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Setupbrowser -->
-        <test-method is-config="true" signature="SetupPages()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:37 IST" name="SetupPages" finished-at="2024-12-09T15:34:51 IST" duration-ms="13520" status="PASS">
+        <test-method is-config="true" signature="SetupPages()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:13 IST" name="SetupPages" finished-at="2024-12-10T18:08:34 IST" duration-ms="20758" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Log :Log page is open]]>
@@ -43,19 +46,184 @@
             </line>
           </reporter-output>
         </test-method> <!-- SetupPages -->
-        <test-method signature="testadmin()[pri:1, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:51 IST" name="testadmin" finished-at="2024-12-09T15:34:51 IST" duration-ms="4" status="PASS">
+        <test-method signature="testadmin()[pri:1, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:34 IST" name="testadmin" finished-at="2024-12-10T18:08:34 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmin -->
-        <test-method signature="Teststudent()[pri:2, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:34:51 IST" name="Teststudent" finished-at="2024-12-09T15:35:01 IST" duration-ms="10061" status="PASS">
+        <test-method signature="Teststudent()[pri:2, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:34 IST" name="Teststudent" finished-at="2024-12-10T18:08:34 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teststudent -->
-        <test-method is-config="true" signature="exitReport()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@3c435123]" started-at="2024-12-09T15:35:01 IST" name="exitReport" finished-at="2024-12-09T15:35:01 IST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="exitReport()[pri:0, instance:com.OrengePage.TestCases.AdminPageTest@5ce33a58]" started-at="2024-12-10T18:08:34 IST" name="exitReport" finished-at="2024-12-10T18:08:34 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitReport -->
       </class> <!-- com.OrengePage.TestCases.AdminPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.OrengePage.TestCases.LoginpageTest">
+        <test-method is-config="true" signature="SetupPages()[pri:0, instance:com.OrengePage.TestCases.LoginpageTest@5357c287]" started-at="2024-12-10T18:08:34 IST" name="SetupPages" finished-at="2024-12-10T18:08:34 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null
+at com.OrengePage.TestCases.BaseClass.SetupPages(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Log :Log page is open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetupPages -->
+        <test-method signature="teturl()[pri:1, instance:com.OrengePage.TestCases.LoginpageTest@5357c287]" started-at="2024-12-10T18:08:34 IST" name="teturl" finished-at="2024-12-10T18:08:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null
+at com.OrengePage.TestCases.BaseClass.SetupPages(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teturl -->
+        <test-method signature="testtile()[pri:2, instance:com.OrengePage.TestCases.LoginpageTest@5357c287]" started-at="2024-12-10T18:08:34 IST" name="testtile" finished-at="2024-12-10T18:08:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null
+at com.OrengePage.TestCases.BaseClass.SetupPages(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtile -->
+        <test-method signature="Testallfunctions()[pri:3, instance:com.OrengePage.TestCases.LoginpageTest@5357c287]" started-at="2024-12-10T18:08:34 IST" name="Testallfunctions" finished-at="2024-12-10T18:08:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.OrengePage.Loginpage.url()" because "this.olp" is null
+at com.OrengePage.TestCases.BaseClass.SetupPages(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testallfunctions -->
+      </class> <!-- com.OrengePage.TestCases.LoginpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

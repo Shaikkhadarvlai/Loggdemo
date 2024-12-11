@@ -80,13 +80,16 @@ public class BaseClass
 	{
 		Reporter.log("Log :Log page is open",true);
 		olp.url();
+		addWait();
 		olp.Title();
+		addWait();
 		olp.allfunctions();
-		
+		addWait();
 		Reporter.log("Log:Login is completed with valid data set",true);
 		test.pass("Login completed!");
 		
 		oap.admintest();
+		addWait();
 		oap.Student();
 		
 	
